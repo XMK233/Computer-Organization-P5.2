@@ -1,0 +1,65 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/mathew/Desktop/p5_2/test_isim_beh.exe -prj C:/Users/mathew/Desktop/p5_2/test_beh.prj work.test work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/mathew/Desktop/p5_2/pc.v" into library work
+WARNING:HDLCompiler:751 - "C:/Users/mathew/Desktop/p5_2/pc.v" Line 28: Redeclaration of ansi port Pc is not allowed
+Analyzing Verilog file "C:/Users/mathew/Desktop/p5_2/npc.v" into library work
+Analyzing Verilog file "C:/Users/mathew/Desktop/p5_2/mux5.v" into library work
+Analyzing Verilog file "C:/Users/mathew/Desktop/p5_2/mux4.v" into library work
+Analyzing Verilog file "C:/Users/mathew/Desktop/p5_2/mux3.v" into library work
+Analyzing Verilog file "C:/Users/mathew/Desktop/p5_2/mux2.v" into library work
+Analyzing Verilog file "C:/Users/mathew/Desktop/p5_2/mux1.v" into library work
+Analyzing Verilog file "C:/Users/mathew/Desktop/p5_2/mem_wb.v" into library work
+Analyzing Verilog file "C:/Users/mathew/Desktop/p5_2/jbunit1.v" into library work
+Analyzing Verilog file "C:/Users/mathew/Desktop/p5_2/jbunit.v" into library work
+WARNING:HDLCompiler:751 - "C:/Users/mathew/Desktop/p5_2/jbunit.v" Line 39: Redeclaration of ansi port Branch is not allowed
+Analyzing Verilog file "C:/Users/mathew/Desktop/p5_2/im_id.v" into library work
+WARNING:HDLCompiler:751 - "C:/Users/mathew/Desktop/p5_2/im_id.v" Line 30: Redeclaration of ansi port InstructionOut is not allowed
+Analyzing Verilog file "C:/Users/mathew/Desktop/p5_2/im.v" into library work
+Analyzing Verilog file "C:/Users/mathew/Desktop/p5_2/HazardSense.v" into library work
+Analyzing Verilog file "C:/Users/mathew/Desktop/p5_2/gpr.v" into library work
+WARNING:HDLCompiler:751 - "C:/Users/mathew/Desktop/p5_2/gpr.v" Line 34: Redeclaration of ansi port RData1 is not allowed
+Analyzing Verilog file "C:/Users/mathew/Desktop/p5_2/FR_ID_EX.v" into library work
+Analyzing Verilog file "C:/Users/mathew/Desktop/p5_2/ForwardUnit.v" into library work
+Analyzing Verilog file "C:/Users/mathew/Desktop/p5_2/ex_mem.v" into library work
+Analyzing Verilog file "C:/Users/mathew/Desktop/p5_2/dm.v" into library work
+Analyzing Verilog file "C:/Users/mathew/Desktop/p5_2/ctrl.v" into library work
+Analyzing Verilog file "C:/Users/mathew/Desktop/p5_2/alu.v" into library work
+Analyzing Verilog file "C:/Users/mathew/Desktop/p5_2/mips.v" into library work
+Analyzing Verilog file "C:/Users/mathew/Desktop/p5_2/test/test.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 94808 KB
+Fuse CPU Usage: 1593 ms
+Compiling module PC
+Compiling module JU
+Compiling module NPC
+Compiling module IM
+Compiling module FR_IF_ID
+Compiling module MUX_Bubble
+Compiling module Controller
+Compiling module GPR
+Compiling module BU
+Compiling module FR_ID_EX
+Compiling module MUX_Operand1
+Compiling module MUX_Operand2
+Compiling module ALU
+Compiling module MUX_Dst
+Compiling module FR_EX_MEM
+Compiling module ForwardUnit
+Compiling module DM
+Compiling module FR_MEM_WB
+Compiling module MUX_MemOrALU
+Compiling module HSU
+Compiling module mips
+Compiling module test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 16 sub-compilation(s) to finish...
+Compiled 23 Verilog Units
+Built simulation executable C:/Users/mathew/Desktop/p5_2/test_isim_beh.exe
+Fuse Memory Usage: 141648 KB
+Fuse CPU Usage: 2311 ms
